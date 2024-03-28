@@ -10,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin: 5rem 0rem;
+    margin: 2rem 0rem;
 }
 
 .main_container{
@@ -101,6 +101,7 @@
     background-color: pink;
     margin: 3rem 4rem;
     right: 100rem;
+    bottom: 10rem;
     padding: 0.6rem;
     width: fit-content;
     color: black;
