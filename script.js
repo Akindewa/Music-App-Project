@@ -31,7 +31,7 @@ const music_list = [
         img : 'Images/Bad_habit.png',
         name : 'Bad Habit',
         artist : 'Ed Sheeran',
-        music : 'Music/Justin Bieber & benny blanco - Lonely (NetNaija.com).mp3'
+        music : 'Music/04 Ed Sheeran - Bad Habits (NetNaija.com).mp3'
     },
     {
         img : 'Images/Ngozi.png',
