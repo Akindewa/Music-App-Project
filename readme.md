@@ -13,6 +13,7 @@
 3) Next Song
 4) Repeat Song
 
-![Destop-veiw](/Images/Screenshot.png)
+![Destop-veiw](/Images/Readme.png)
+![mobile-veiw](/Images/img.png)
 
 ##### THANKS
