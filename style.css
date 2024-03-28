@@ -13,16 +13,16 @@
     margin: 5rem 0rem;
 }
 
-.first_container{
-    background-color: rgb(255, 0, 157);
+.main_container{
+    background-color: rgb(9, 255, 0);
     border: 1px solid transparent;
     padding: 30px;
     border-radius: 20px;
-    background-color: #ddd;
+    background-color: plum;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px , rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.details{
+.first_container{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,7 +33,7 @@
     margin: 25px;
     height: 250px;
     width:250px ;
-    border:2px solid 	#afffc3;
+    border:2px solid 	pink;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -45,21 +45,21 @@
     border-radius:190px;
 }
 
-.now-playing {
+.current-song {
     font-size: 1.5rem;
     padding-top: 2rem;
 }
 
-.track-name {
+.song_title {
     font-size: 2.5rem;
 }
 
-.track-artist {
+.song-artiste {
     margin-top: 5px;
     font-size: 1.5rem;
 }
 
-.buttons {
+.buttons_control {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,24 +70,65 @@
     color: black;
 }
 
-.repeat-track,
-.random-track,
-.playpause-track,
-.prev-track,
 .next-track {
         padding: 25px;
         opacity: 0.8;
         transition: opacity .2s;
         }
 
+.random-track{
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s
+}
+.playpause-track{
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s
+}
+.previous-track{
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s
+}
+.repeat-track{
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s
+}
 
-.repeat-track:hover,
-.random-track:hover,
-.playpause-track:hover,
-.prev-track:hover,
-        .next-track:hover {
-                opacity: 1.0;
-                }
+#dewa{
+    background-color: pink;
+    margin: 3rem 4rem;
+    right: 100rem;
+    padding: 0.6rem;
+    width: fit-content;
+    color: black;
+    border-radius: 0.7rem;
+    margin-top: 8.5rem;
+}
+
+
+
+.playpause-track:hover{
+    opacity: 1.0;
+}
+.prev-track:hover{
+    opacity: 1.0;
+}
+.next-track:hover {
+    opacity: 1.0;
+}
+
+.random-track:hover{
+    opacity: 1.0;
+}
+.random-track:hover{
+    opacity: 1.0;
+}
+.repeat-track:hover{
+    opacity: 1.0;
+}
 
 .slider_container {
      display: flex;
@@ -100,12 +141,22 @@
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: #83ffcb;
+    background: #515f59;
     -webkit-transition: .2s;
     transition: opacity .2s;
     }
 
-.seek_slider::-webkit-slider-thumb,
+.seek_slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: pink;
+    border: 3px solid #3774FF;
+    cursor: pointer;
+    border-radius: 100%;
+}
     .volume_slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -141,22 +192,32 @@ i.fa-volume-down,
     padding: 10px;
 }
 
-i,
-i.fa-play-circle,
-i.fa-pause-circle,
- i.fa-step-forward,
-i.fa-step-backward,
-    p {
+i{
     cursor: pointer;
-    }
+}
+i.fa-play-circle{
+    cursor: pointer;
+}
+i.fa-pause-circle{
+    cursor: pointer;
+}
+ i.fa-step-forward{
+     cursor: pointer;
+ }
+i.fa-step-backward{
+    cursor: pointer;
+}
+ p {
+    cursor: pointer;
+}
     
     
-    .randomActive{
+.randomActive{
         color: black;
-    }
-    .rotate {
+}
+.rotate {
         animation: rotation 8s infinite linear;
-    }
+}
     @keyframes rotation {
         from {
             transform: rotate(0deg);
@@ -172,7 +233,7 @@ i.fa-step-backward,
         align-items: center;
     }
     .loader .stroke{
-        background: #f1f1f1;
+        background: black;
         height: 150%;
         width: 10px;
         border-radius: 50px;
@@ -183,11 +244,11 @@ i.fa-step-backward,
     @keyframes animate {
         50% {
           height: 20%;
-          background: #4286f4;
+          background: red;
         }
     
         100% {
-          background: #4286f4;
+          background: purple;
           height: 100%;
         }
       }

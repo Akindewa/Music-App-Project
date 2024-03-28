@@ -1,7 +1,7 @@
-let now_playing = document.querySelector('.now-playing');
+let now_playing = document.querySelector('.current-song');
 let track_art = document.querySelector('.track-art');
-let track_name = document.querySelector('.track-name');
-let track_artist = document.querySelector('.track-artist');
+let track_name = document.querySelector('.song_title');
+let track_artist = document.querySelector('.song-artiste');
 
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
@@ -31,8 +31,14 @@ const music_list = [
         img : 'Images/Bad_habit.png',
         name : 'Bad Habit',
         artist : 'Ed Sheeran',
-        music : 'Music/04 Ed Sheeran - Bad Habits (NetNaija.com).mp3'
+        music : 'Music/Justin Bieber & benny blanco - Lonely (NetNaija.com).mp3'
     },
+    {
+        img : 'Images/Ngozi.png',
+        name :'Ngozi',
+        artist : 'Ayra Starr & Crayon',
+        music : 'Music/03 Crayon - Ngozi (with Ayra Starr) (NetNaija.com).mp3'
+    } ,
     {
         img : 'Images/Lonely.png',
         name : 'Lonely',
