@@ -17,6 +17,6 @@
 
 
 
-![mobile-veiw](/Images/img.png)
+![mobile-veiw](/Images/mobileview.png)
 
 ##### THANKS
